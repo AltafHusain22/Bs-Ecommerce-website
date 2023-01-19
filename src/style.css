@@ -1,0 +1,51 @@
+/* ----------------
+google fonts
+-------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;700;800&family=Work+Sans:wght@400;500&display=swap');
+
+/* ----------------
+Base style
+-------------------- */
+
+body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #FF843B;
+    --secondary-color: #4D4DFF;
+    --third_black: #4D4DFF;
+    --white: #fff;
+}
+
+/* ----------------
+Menu section
+-------------------- */
+
+.logo {
+    width: 30%;
+    height: 30%;
+}
+
+.cart {
+    color: var(--primary-color);
+}
+
+.Login {
+    border: 2px solid var(--primary-color);
+    color: var(--white);
+    margin-left: 15px;
+    background-color: transparent;
+
+}
+
+.Register {
+    border: 2px solid var(--secondary-color);
+    color: var(--white);
+    margin-left: 15px;
+    background-color: transparent;
+}
+
+/* ----------------
+banner section
+-------------------- */
