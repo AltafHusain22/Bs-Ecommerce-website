@@ -18,6 +18,10 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     --white: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* ----------------
 Menu section
 -------------------- */
@@ -49,3 +53,83 @@ Menu section
 /* ----------------
 banner section
 -------------------- */
+
+.banner {
+    background: #1a2a6c;
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
+
+}
+
+.banner-left {
+    padding: 80px 50px;
+
+}
+
+.banner-right {
+    padding: 80px 50px;
+}
+
+.banner-img {
+    width: 70%;
+    height: 50%;
+}
+
+.buynow {
+    border: 2px solid var(--primary-color);
+    color: var(--white);
+    margin-left: 15px;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.discover {
+    background: var(--primary-color);
+    color: #000;
+    font-weight: 700;
+    border: 0;
+}
+
+/* Brands */
+
+.brand-card-1 {
+    background: #1F2969;
+    border: 0;
+}
+
+.brand-card-2 {
+    background: #CC5624;
+    border: 0;
+}
+
+.brand-card-3 {
+    background: #AE1F21;
+    border: 0;
+}
+
+/* products */
+
+.addTocart {
+    background: var(--primary-color);
+    color: var(--white);
+    border: 0;
+    font-weight: 500;
+}
+
+.addTocart:hover {
+    background: #1F2969 !important;
+    color: #fff;
+}
+
+.quick-buy {
+    background: #1F2969 !important;
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+}
+
+.quick-buy:hover {
+    background: #1F2969 !important;
+    color: var(--white);
+    font-weight: 500;
+}
