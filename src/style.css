@@ -134,4 +134,37 @@ banner section
     font-weight: 500;
 }
 
-/* featured section */
+/* subscription section */
+
+.subscription {
+    background: #1a2a6c;
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
+
+}
+
+/* Footer */
+
+footer {
+    background: #212529;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-header {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+footer li a {
+    color: #fff;
+
+}
+
+.copy-right{
+    margin: 0 auto;
+}
