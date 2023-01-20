@@ -136,7 +136,7 @@ banner section
 
 /* subscription section */
 
-.subscription {
+.subscription, .login_area {
     background: #1a2a6c;
     background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
     background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
@@ -165,6 +165,22 @@ footer li a {
 
 }
 
-.copy-right{
+.copy-right {
     margin: 0 auto;
+}
+
+/* login page */
+.login {
+    width: 30%;
+}
+
+.avatar img {
+    width:30%;
+    padding: 50px 0px;
+}
+
+.avatar {
+    background: #1a2a6c;
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
 }
